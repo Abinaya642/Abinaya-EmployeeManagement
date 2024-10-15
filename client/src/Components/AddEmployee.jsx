@@ -16,7 +16,7 @@ export const AddEmployee = () => {
   });
 
   const [imagePreview, setImagePreview] = useState(null);
-  const fileInputRef = useRef(null); // Create a ref for the file input
+  const fileInputRef = useRef(null); // Create a ref for file input
 
   const handleChange = (e) => {
     const { name, value } = e.target;
